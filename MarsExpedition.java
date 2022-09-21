@@ -2,7 +2,7 @@ import java.util.*;
 
 public class MarsExpedition
 {
-    public static void main(String[] args)
+    public MarsExpedition()
     {
         String name, excited, weapon, vehicleChoice, vehicle;
         int teamSize;
@@ -61,8 +61,8 @@ public class MarsExpedition
 
         System.out.println("Your expedition team is ready! It is lead by " +name+ " with " +
                             teamSize + " teammates\n" +
-                            "to explore the surface of Mars with a" + weapon +
-                            " and a" + vehicle + ".\nExploration team heads out in \n" +
+                            "to explore the surface of Mars with a " + weapon +
+                            " and a " + vehicle + ".\nExploration team heads out in \n" +
                             "5.....\n4....\n3...\n2..\n1.\n GO! GO! GO!");
     }
 }

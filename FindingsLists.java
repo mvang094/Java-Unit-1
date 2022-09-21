@@ -2,7 +2,7 @@ import java.util.*;
 
 public class FindingsLists
 {
-    public static void main (String[] args) throws InterruptedException
+    public FindingsLists() throws InterruptedException
     {
         Thread.sleep(500); //Stops the terminal for half a second
 

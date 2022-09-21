@@ -1,6 +1,6 @@
 public class Mars
 {
-    public static void main (String[] args)
+    public static void main (String[] args) throws InterruptedException
     {
         String colonyName = "Kepler";
         String landingLocation = "The Hill";
@@ -27,8 +27,12 @@ public class Mars
 
         //Set landing to whatever LandingCheck is
         landing = LandingCheck(100);
+
+        new GuessingGame();
+        new MarsExpedition();
+        new FindingsLists();
     }
-    public static boolean LandingCheck(int loops) //throws InterruptedException
+    public static boolean LandingCheck(int loops)
     {
         try
         {

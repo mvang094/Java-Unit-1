@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class GuessingGame
 {
-    public static void main(String[] args)
+    public GuessingGame()
     {
         boolean correctGuess = false;
         int guess, increment = 0;
